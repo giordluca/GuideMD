@@ -6,7 +6,7 @@ Rebuild a Viber chat from the local iOS database.
 
 ---
 
-# 1. Database da analizzare
+# 1. Database to analyze
 
 Path iOS:
 
