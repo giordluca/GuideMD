@@ -36,14 +36,14 @@ I principali campi che ci servono per recuperare i messaggi di una singola chat 
 
 | Campo | A cosa serve |
 |---|---|
-| `ZCONVERSATION` | indica il valore del campo Z_PK della tabella [ZCONVERSATION](#ZCONVERSATION)
+| `ZCONVERSATION` | indica il valore del campo Z_PK della tabella [ZCONVERSATION](#3)
 | `ZDATE` | timestamp del messaggio
 | `ZPHONENUMINDEX` | il valore del campo Z_PK della tabella [ZPHONENUMBER](#ZPHONENUMBER), se è NULL vuol dire che il messaggio è stato inviato dal target.
 | `ZCALLTYPE` | valorizzato se si tratta di una chiamata. I possibili valori sono: incoming, outgoing, incoming_viber_with_video, outgoing_viber_with_video, missed
 | `ZGALLERYTYPE` | valorizzato se l'attachment è di tipo picture.
 | `ZLOCATION` | valorizzato se il messaggio è di tipo positioning, indica il valore del campo Z_PK della tabella ZVIBERLOCATION
 | `ZTEXT` | quando il campo  `ZSYSTEMTYPE` è NULL, il suo valore indica il testo della chat, mentre quando `ZSYSTEMTYPE` è valorizzato con formatted, è valorizzato con un Json da dove recuperiamo il Contatto condiviso in chat.
-| `ZSYSTEMTYPE` | se valorizzato con "formatted" significa che in `ZTEXT` troveremo un il Contatto condiviso in chat.
+| `ZSYSTEMTYPE` | se valorizzato con "formatted" significa che in `ZTEXT` troveremo un json con il Contatto condiviso in chat.
 | `ZATTACHMENT` |  il valore del campo Z_PK della tabella [ZATTACHMENT](#ZATTACHMENT)
 
 ---
