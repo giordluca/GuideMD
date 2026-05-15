@@ -36,9 +36,9 @@ I principali campi che ci servono per recuperare i messaggi di una singola chat 
 
 | Campo | A cosa serve |
 |---|---|
-| `ZCONVERSATION` | indica il valore del campo Z_PK della tabella [ZCONVERSATION](#3)
+| `ZCONVERSATION` | indica il valore del campo Z_PK della tabella [ZCONVERSATION](#3-tabella-zconversation)
 | `ZDATE` | timestamp del messaggio
-| `ZPHONENUMINDEX` | il valore del campo Z_PK della tabella [ZPHONENUMBER](#ZPHONENUMBER), se è NULL vuol dire che il messaggio è stato inviato dal target.
+| `ZPHONENUMINDEX` | il valore del campo Z_PK della tabella [ZPHONENUMBER](#5-tabella-zphonenumber), se è NULL vuol dire che il messaggio è stato inviato dal target.
 | `ZCALLTYPE` | valorizzato se si tratta di una chiamata. I possibili valori sono: incoming, outgoing, incoming_viber_with_video, outgoing_viber_with_video, missed
 | `ZGALLERYTYPE` | valorizzato se l'attachment è di tipo picture.
 | `ZLOCATION` | valorizzato se il messaggio è di tipo positioning, indica il valore del campo Z_PK della tabella ZVIBERLOCATION
@@ -76,7 +76,7 @@ I principali campi sono:
 
 ---
 
-# 4. Tabella `ZPHONENUMBER`
+# 5. Tabella `ZPHONENUMBER`
 ```text
 La tabella ZPHONENUMBER contiene informazioni sui numeri di telefono di ogni contatto.
 ```
@@ -89,7 +89,7 @@ I principali campi sono:
 
 ---
 
-# 5. Tabella `ZATTACHMENT`
+# 6. Tabella `ZATTACHMENT`
 ```text
 La tabella ZATTACHMENT contiene informazioni sugli attachments. 
 In particolar modo picture, file, audio, video. Per la location non recupereremo informazioni da questa tabella.
@@ -112,7 +112,7 @@ I principali campi sono:
 ```
 ---
 
-# 6. Tabella `ZVIBERLOCATION`
+# 7. Tabella `ZVIBERLOCATION`
 ```text
 La tabella ZVIBERLOCATION contiene informazioni sulle positioning condivise in chat.
 ```
@@ -126,7 +126,7 @@ I principali campi sono:
 
 ---
 
-# 7. Conclusioni
+# 8. Conclusioni
 ```text
 Di sicuro oltre queste informazioni, che ci consentono di mostrare le chat Viber, ci sono tantissime altre informazioni che si possono reperire da altri DB presenti in Viber e anche dallo stesso DB (`Contacts.data`) che abbiamo ora analizzato.
 ```
