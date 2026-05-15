@@ -1,20 +1,20 @@
 # Viber iOS DB Reconstruction
 
-## Obiettivo
+## Objective
 
-Ricostruire una chat Viber partendo dal database locale iOS.
+Rebuild a Viber chat from the local iOS database.
 
 ---
 
 # 1. Database da analizzare
 
-Percorso iOS:
+Path iOS:
 
 ```text
 /var/mobile/Containers/Shared/AppGroup/<group.viber.share.container>/com.viber/database/Contacts.data
 ```
 
-Le tabelle utili sono:
+Useful tables are:
 
 ```text
 ZVIBERMESSAGE
@@ -27,108 +27,107 @@ ZVIBERLOCATION
 
 ---
 
-# 2. Tabella `ZVIBERMESSAGE`
+# 2. Table `ZVIBERMESSAGE`
 
 ```text
-La tabella ZVIBERMESSAGE contiene tutti i messaggi di ogni chat.
+The ZVIBERMESSAGE table contains all the messages from each chat.
 ```
-I principali campi che ci servono per recuperare i messaggi di una singola chat sono:
+The main fields we need to retrieve messages from a single chat are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZCONVERSATION` | indica il valore del campo Z_PK della tabella [ZCONVERSATION](#3-tabella-zconversation)
-| `ZDATE` | timestamp del messaggio
-| `ZPHONENUMINDEX` | il valore del campo Z_PK della tabella [ZPHONENUMBER](#5-tabella-zphonenumber), se è NULL vuol dire che il messaggio è stato inviato dal target.
-| `ZCALLTYPE` | valorizzato se si tratta di una chiamata. I possibili valori sono: incoming, outgoing, incoming_viber_with_video, outgoing_viber_with_video, missed
-| `ZGALLERYTYPE` | valorizzato se l'attachment è di tipo picture.
-| `ZLOCATION` | valorizzato se il messaggio è di tipo positioning, indica il valore del campo Z_PK della tabella ZVIBERLOCATION
-| `ZTEXT` | quando il campo  `ZSYSTEMTYPE` è NULL, il suo valore indica il testo della chat, mentre quando `ZSYSTEMTYPE` è valorizzato con formatted, è valorizzato con un Json da dove recuperiamo il Contatto condiviso in chat.
-| `ZSYSTEMTYPE` | se valorizzato con "formatted" significa che in `ZTEXT` troveremo un json con il Contatto condiviso in chat.
-| `ZATTACHMENT` |  il valore del campo Z_PK della tabella [ZATTACHMENT](#ZATTACHMENT)
+| `ZCONVERSATION` | indicates the value of the Z_PK field of the [ZCONVERSATION](#3-table-zconversation) table 
+| `ZDATE` | message timestamp
+| `ZPHONENUMINDEX` | the value of the Z_PK field of the [ZPHONENUMBER](#5-table-zphonenumber) table, if it is NULL means that the message was sent by the target.
+| `ZCALLTYPE` | valued if it is a call. Possible values ​​are: incoming, outgoing, incoming_viber_with_video, outgoing_viber_with_video, missed
+| `ZGALLERYTYPE` | set if the attachment is of type picture.
+| `ZLOCATION` | set if the message is of the positioning type, indicates the value of the Z_PK field of the [ZVIBERLOCATION](#7-table-zviberlocation) table
+| `ZTEXT` | when the `ZSYSTEMTYPE` field is NULL, its value indicates the chat text, while when `ZSYSTEMTYPE` is set to "formatted", it is set to a Json from which we retrieve the Contact shared in the chat.
+| `ZSYSTEMTYPE` | if set to "formatted" it means that in `ZTEXT` we will find a json with the Contact shared in chat.
+| `ZATTACHMENT` | the value of the Z_PK field of the [ZATTACHMENT](#6-table-zattachment) table
 
 ---
 
-# 3. Tabella `ZCONVERSATION`
+# 3. Table `ZCONVERSATION`
 ```text
-La tabella ZCONVERSATION contiene ogni singola chat.
+The ZCONVERSATION table contains every single chat.
 ```
-I principali campi che ci servono per recuperare le info di una chat sono:
+The main fields we need to retrieve chat information are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZINTERLOCUTOR` | valorizzato se si tratta di una chat non di gruppo, indica il valore del campo Z_PK della tabella [ZMEMBER](#ZMEMBER) e della tabella [ZPHONENUMBER](#ZPHONENUMBER)
-| `ZNAME` | valorizzato se si tratta di un gruppo, indica i nomi dei partecipanti ad un gruppo.
-| `ZGROUPID` | valorizzato se si tratta di un gruppo.
+| `ZINTERLOCUTOR` | set to zero if it is a non-group chat, indicates the value of the Z_PK field of the [ZMEMBER](#4-table-zmember) table and the [ZPHONENUMBER](#5-table-zphonenumber) table
+| `ZNAME` | valued if it is a group, indicates the names of the participants in a group.
+| `ZGROUPID` | valued if it is a group.
 
 ---
 
-# 4. Tabella `ZMEMBER`
+# 4. Table `ZMEMBER`
 ```text
-La tabella ZMEMBER contiene informazioni di ogni contatto.
+The ZMEMBER table contains information about each contact.
 ```
-I principali campi sono:
+The main fields are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZDISPLAYFULLNAME` | contiene il nome completo visualizzato del contatto Viber.
-| `ZDISPLAYSHORTNAME` | contiene il nome visualizzato in versione short del contatto Viber.
-| `ZNAME` | contiene il nome del contatto Viber salvato nella rubrica del tefono.
+| `ZDISPLAYFULLNAME` | contains the full display name of the Viber contact.
+| `ZDISPLAYSHORTNAME` | contains the shortened display name of the Viber contact.
+| `ZNAME` | contains the name of the Viber contact saved in your phone's address book.
 
 ---
 
-# 5. Tabella `ZPHONENUMBER`
+# 5. Table `ZPHONENUMBER`
 ```text
-La tabella ZPHONENUMBER contiene informazioni sui numeri di telefono di ogni contatto.
+The ZPHONENUMBER table contains information about the phone numbers of each contact.
 ```
-I principali campi sono:
+The main fields are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZCANONIZEDPHONENUM` | contiene il numero di telefono completo e formattato del contatto Viber.
-| `ZPHONE` | contiene il nome visualizzato in versione short del contatto Viber.
+| `ZCANONIZEDPHONENUM` | contains the full, formatted phone number of the Viber contact.
+| `ZPHONE` | contains the incomplete and unformatted phone number of the Viber contact.
 
 ---
 
-# 6. Tabella `ZATTACHMENT`
+# 6. Table `ZATTACHMENT`
 ```text
-La tabella ZATTACHMENT contiene informazioni sugli attachments. 
-In particolar modo picture, file, audio, video. Per la location non recupereremo informazioni da questa tabella.
+The ZATTACHMENT table contains information about attachments.
+Especially pictures, files, audio, and video. We won't retrieve location information from this table.
 ```
 
-I principali campi sono:
+The main fields are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZTYPE` | indica il tipo di attachments che può essere. I possibili valori sono picture, audio, customLocation, file, video.
-| `ZNAME` | filename dell'attachment. 
-| `ZFILESIZE` | indica la size dell'attachment.
+| `ZTYPE` | Specifies the type of attachment it can be. Possible values ​​are picture, audio, customLocation, file, or video.
+| `ZNAME` | filename of the attachment.
+| `ZFILESIZE` | indicates the size of the attachment.
 
- Tutti gli attachments risiedono nella folder Documents dell'app `/var/mobile/Containers/Data/Application/(identificativorandomicoapp)/Documents`
+All attachments reside in the app's Documents folder `/var/mobile/Containers/Data/Application/<UUID>/Documents`
 ```text
- In particolar modo
- Video e Picture li troviamo nella folder Attachments
- File nella folder FileMessages
- Audio nella folder VoiceMessages
+ Video and Photo can be found in the Attachments folder
+ File in the FileMessages folder
+ Audio in the VoiceMessages folder
 ```
 ---
 
-# 7. Tabella `ZVIBERLOCATION`
+# 7. Table `ZVIBERLOCATION`
 ```text
-La tabella ZVIBERLOCATION contiene informazioni sulle positioning condivise in chat.
+The ZVIBERLOCATION table contains information about the positionings shared in chat.
 ```
-I principali campi sono:
+The main fields are:
 
-| Campo | A cosa serve |
+| Field | Description |
 |---|---|
-| `ZADDRESS` | indica l'indirizzo completo della positioning.
-| `ZLATITUDE` | indica la latitudine della positioning. 
-| `ZLONGITUDE` | indica la longitudine della positioning.
+| `ZADDRESS` | indicates the complete address of the positioning.
+| `ZLATITUDE` | indicates the latitude of the positioning.
+| `ZLONGITUDE` | indicates the longitude of the positioning.
 
 ---
 
-# 8. Conclusioni
+# 8. Conclusions
 ```text
-Di sicuro oltre queste informazioni, che ci consentono di mostrare le chat Viber, ci sono tantissime altre informazioni che si possono reperire da altri DB presenti in Viber e anche dallo stesso DB (`Contacts.data`) che abbiamo ora analizzato.
+Certainly, beyond this information, which allows us to display Viber chats, there is a lot of other information that can be found from other databases present in Viber and also from the same DB (`Contacts.data`) that we have now analyzed.
 ```
 
 
