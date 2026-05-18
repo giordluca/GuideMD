@@ -129,8 +129,10 @@ The main fields are:
 ```text
 Of course, in addition to this information,
 we can retrieve a lot more from both the "Contacts.data" database and other databases in Viber.
-The [Contacts.data](./Contacts.data) database is attached.
+The Contacts.data database is attached.
 ```
+[Contacts.data](Files/Contacts.data)
+
 
 
 
