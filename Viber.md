@@ -127,10 +127,12 @@ The main fields are:
 
 # 8. Conclusions
 ```text
-Certainly, beyond this information, which allows us to display Viber chats,
-there is a lot of other information that can be found from other databases present in Viber
-and also from the same DB (`Contacts.data`) that we have now analyzed.
+Of course, in addition to this information,
+we can retrieve a lot more from both the "Contacts.data" database and other databases in Viber.
+The [Contacts.data](./Contacts.data) database is attached.
 ```
+
+
 
 
 
