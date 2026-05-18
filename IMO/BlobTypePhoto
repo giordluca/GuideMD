@@ -1,0 +1,130 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x600000a98400 [0x20dc20120]>{value = 34}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600000a98240 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x600000a98260 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x600000a98280 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x600000a982a0 [0x20dc20120]>{value = 5}
+        4 => <CFKeyedArchiverUID 0x600000a982c0 [0x20dc20120]>{value = 6}
+        5 => <CFKeyedArchiverUID 0x600000a982e0 [0x20dc20120]>{value = 7}
+        6 => <CFKeyedArchiverUID 0x600000a98300 [0x20dc20120]>{value = 8}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600000a98320 [0x20dc20120]>{value = 9}
+        1 => <CFKeyedArchiverUID 0x600000a98340 [0x20dc20120]>{value = 10}
+        2 => <CFKeyedArchiverUID 0x600000a98360 [0x20dc20120]>{value = 11}
+        3 => <CFKeyedArchiverUID 0x600000a98380 [0x20dc20120]>{value = 12}
+        4 => <CFKeyedArchiverUID 0x600000a983a0 [0x20dc20120]>{value = 13}
+        5 => <CFKeyedArchiverUID 0x600000a983c0 [0x20dc20120]>{value = 14}
+        6 => <CFKeyedArchiverUID 0x600000a983e0 [0x20dc20120]>{value = 43}
+      ]
+    }
+    2 => "thumb_small_blur"
+    3 => "msg_id"
+    4 => "trace_id"
+    5 => "__exported"
+    6 => "type"
+    7 => "objects"
+    8 => "quality_options"
+    9 => "UklGRhgCAABXRUJQVlA4IAwCAABwFQCdASpDAHgAPjEYikOiIaESaVx4IAMEs4BcFBnntrcz8F+32wF/XFbIxGuKcEn2Dg87Xos6mkj4ItIDHHhzK1c7PonSBIAGN15NgCLGyR24GHntlrTh/7aCwFxA6Ca00/rHHAHaFdXqcZ3woHkYF6eezXNmmbE5njV72Sz/gAyvdmiBVGrpfeUEPISqiA6OG9hPM2mKKC32Tckk2FtoE9oCZCkyFL8DOKJszN2Q3341AAAA/v/+ZleZlJ6s1pfSOjkKTXK/1KrfueuBtWy2/3kvTk6N2vbvu+9l17P6UGn3M/v/BBvGrNkV0eXwZmMyxebyxOPC8EtMl9cErdxYr14zr8qW34VRHksocMJgllSshohev2/HQLSfHLb+4DmAAyMBtVpsKfJpnrX6mf8S4vO9+RmISELCI9u7AUYAhM775Ai71Sud5LvGo089d/516OC69yZ1IP8fNm53nGsWACSZeH1IR6k9Lxr+P9wQ6yrtCVAU8Ham6TE23p1k0bDtRaejTU2eUqydN5HaBFTov2YvwAHh1KXoPz2L7TZ2cpgsfJZLtED+tiBNMqWgNssnkPzVCcs4pyALHs/eADgRZ3HlWHtUDw2KaOrDvr4HO2xJxILS5QDiTT+Lb3lZ30uHGu5APSdMsRmmWktXD6gEpHcco1GMwOntrTbwiDqcCfpx7qckGCYEjgAAAA=="
+    10 => "GxRkNnr0"
+    11 => "R0QQ8rJufySoWXgt"
+    12 => "1"
+    13 => "photo_uploaded"
+    14 => {
+      "$class" => <CFKeyedArchiverUID 0x600000a984e0 [0x20dc20120]>{value = 42}
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600000a984c0 [0x20dc20120]>{value = 15}
+      ]
+    }
+    15 => {
+      "$class" => <CFKeyedArchiverUID 0x600000a98400 [0x20dc20120]>{value = 34}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600000a98500 [0x20dc20120]>{value = 16}
+        1 => <CFKeyedArchiverUID 0x600000a98520 [0x20dc20120]>{value = 17}
+        2 => <CFKeyedArchiverUID 0x600000a98540 [0x20dc20120]>{value = 18}
+        3 => <CFKeyedArchiverUID 0x600000a98560 [0x20dc20120]>{value = 19}
+        4 => <CFKeyedArchiverUID 0x600000a98580 [0x20dc20120]>{value = 20}
+        5 => <CFKeyedArchiverUID 0x600000a985a0 [0x20dc20120]>{value = 21}
+        6 => <CFKeyedArchiverUID 0x600000a985c0 [0x20dc20120]>{value = 22}
+        7 => <CFKeyedArchiverUID 0x600000a985e0 [0x20dc20120]>{value = 23}
+        8 => <CFKeyedArchiverUID 0x600000a982c0 [0x20dc20120]>{value = 6}
+        9 => <CFKeyedArchiverUID 0x600000a98600 [0x20dc20120]>{value = 24}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600000a98620 [0x20dc20120]>{value = 25}
+        1 => <CFKeyedArchiverUID 0x600000a98640 [0x20dc20120]>{value = 26}
+        2 => <CFKeyedArchiverUID 0x600000a98660 [0x20dc20120]>{value = 35}
+        3 => <CFKeyedArchiverUID 0x600000a98680 [0x20dc20120]>{value = 36}
+        4 => <CFKeyedArchiverUID 0x600000a986a0 [0x20dc20120]>{value = 37}
+        5 => <CFKeyedArchiverUID 0x600000a986c0 [0x20dc20120]>{value = 38}
+        6 => <CFKeyedArchiverUID 0x600000a986e0 [0x20dc20120]>{value = 39}
+        7 => <CFKeyedArchiverUID 0x600000a98700 [0x20dc20120]>{value = 40}
+        8 => <CFKeyedArchiverUID 0x600000a98720 [0x20dc20120]>{value = 31}
+        9 => <CFKeyedArchiverUID 0x600000a98740 [0x20dc20120]>{value = 41}
+      ]
+    }
+    16 => "filesize"
+    17 => "type_specific_params"
+    18 => "timestamp_nano_str"
+    19 => "prev_im_ts"
+    20 => "timestamp_nano"
+    21 => "filename"
+    22 => "object_id"
+    23 => "timestamp"
+    24 => "file_reused"
+    25 => 18370
+    26 => {
+      "$class" => <CFKeyedArchiverUID 0x600000a98400 [0x20dc20120]>{value = 34}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600000a987c0 [0x20dc20120]>{value = 27}
+        1 => <CFKeyedArchiverUID 0x600000a982c0 [0x20dc20120]>{value = 6}
+        2 => <CFKeyedArchiverUID 0x600000a987e0 [0x20dc20120]>{value = 28}
+        3 => <CFKeyedArchiverUID 0x600000a98800 [0x20dc20120]>{value = 29}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600000a98820 [0x20dc20120]>{value = 30}
+        1 => <CFKeyedArchiverUID 0x600000a98720 [0x20dc20120]>{value = 31}
+        2 => <CFKeyedArchiverUID 0x600000a98840 [0x20dc20120]>{value = 32}
+        3 => <CFKeyedArchiverUID 0x600000a98860 [0x20dc20120]>{value = 33}
+      ]
+    }
+    27 => "original_height"
+    28 => "mime"
+    29 => "original_width"
+    30 => 1920
+    31 => "image"
+    32 => "image/webp"
+    33 => 1080
+    34 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+    35 => "1778252287274000000"
+    36 => 1778252249006000000
+    37 => 1778252287274000000
+    38 => "DyBMtoe09SI.webp"
+    39 => ".K1qFNBAdzDUYMpJKqwQLferIP0y"
+    40 => 1778252287
+    41 => 0
+    42 => {
+      "$classes" => [
+        0 => "NSArray"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSArray"
+    }
+    43 => 0
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x600000a981a0 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}

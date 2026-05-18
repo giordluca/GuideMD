@@ -1,0 +1,152 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x60000395e740 [0x20dc20120]>{value = 19}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000395e440 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x60000395e460 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x60000395e480 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x60000395e4a0 [0x20dc20120]>{value = 5}
+        4 => <CFKeyedArchiverUID 0x60000395e4c0 [0x20dc20120]>{value = 6}
+        5 => <CFKeyedArchiverUID 0x60000395e4e0 [0x20dc20120]>{value = 7}
+        6 => <CFKeyedArchiverUID 0x60000395e500 [0x20dc20120]>{value = 8}
+        7 => <CFKeyedArchiverUID 0x60000395e520 [0x20dc20120]>{value = 9}
+        8 => <CFKeyedArchiverUID 0x60000395e540 [0x20dc20120]>{value = 10}
+        9 => <CFKeyedArchiverUID 0x60000395e560 [0x20dc20120]>{value = 11}
+        10 => <CFKeyedArchiverUID 0x60000395e580 [0x20dc20120]>{value = 12}
+        11 => <CFKeyedArchiverUID 0x60000395e5a0 [0x20dc20120]>{value = 13}
+        12 => <CFKeyedArchiverUID 0x60000395e5c0 [0x20dc20120]>{value = 14}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000395e5e0 [0x20dc20120]>{value = 15}
+        1 => <CFKeyedArchiverUID 0x60000395e600 [0x20dc20120]>{value = 16}
+        2 => <CFKeyedArchiverUID 0x60000395e620 [0x20dc20120]>{value = 20}
+        3 => <CFKeyedArchiverUID 0x60000395e640 [0x20dc20120]>{value = 21}
+        4 => <CFKeyedArchiverUID 0x60000395e660 [0x20dc20120]>{value = 22}
+        5 => <CFKeyedArchiverUID 0x60000395e680 [0x20dc20120]>{value = 23}
+        6 => <CFKeyedArchiverUID 0x60000395e6a0 [0x20dc20120]>{value = 24}
+        7 => <CFKeyedArchiverUID 0x60000395e6c0 [0x20dc20120]>{value = 25}
+        8 => <CFKeyedArchiverUID 0x60000395e6a0 [0x20dc20120]>{value = 24}
+        9 => <CFKeyedArchiverUID 0x60000395e6e0 [0x20dc20120]>{value = 26}
+        10 => <CFKeyedArchiverUID 0x60000395e700 [0x20dc20120]>{value = 46}
+        11 => <CFKeyedArchiverUID 0x60000395e720 [0x20dc20120]>{value = 47}
+        12 => <CFKeyedArchiverUID 0x60000395e6a0 [0x20dc20120]>{value = 24}
+      ]
+    }
+    2 => "msg_id"
+    3 => "quality"
+    4 => "height"
+    5 => "thumb_small_blur"
+    6 => "type"
+    7 => "width"
+    8 => "quality_options"
+    9 => "object_id"
+    10 => "expiration_timestamp"
+    11 => "objects"
+    12 => "__exported"
+    13 => "trace_id"
+    14 => "ts_open_time_machine"
+    15 => "uVoyHQXq"
+    16 => {
+      "$class" => <CFKeyedArchiverUID 0x60000395e740 [0x20dc20120]>{value = 19}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000395e800 [0x20dc20120]>{value = 17}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000395e820 [0x20dc20120]>{value = 18}
+      ]
+    }
+    17 => "duration"
+    18 => 15000
+    19 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+    20 => 1920
+    21 => "UklGRs4CAABXRUJQVlA4IMICAADQGACdASpDAHgAPjEYikQiIaEQ1LwgAwSygF/T+4dr5bzvNPo2vz+yp/dL9xHsUjvn4qRlhvapWdajfRs3ykknJtmp0+N0oL9q3uJ/N+gpSrZooQ+u0BLbCFJOJQBnjVVRrKPX06naEGBaxdF8a9jZx7w6qfG9uNcgVaNUCti2w7Ynu2RdMAbzMoHak7bi2aLGUvNoJBeH5LaYcAfrXdHp7V3QqK8qTHOLZ56A/hlJ+nVl2WCrREVKS9U0DQTjqu0x0xGYxiBWVqRiuTNGYQAA/v/6LzE638qSr1VIGZcReZkFRm5znmkd53ExwclE37oj/GtlA6zMHLBC6S+vsJ8kltrIlliYOJIwSV3sxKtVRdGc3aKhIhoGVhFDhCUe4n4pKESbP7AFmfThln+MDvsOZL1exGb1t9wpjL0O6lgJDp9g3o6fywaXXmqv86ZFmO5ISqM+pnO0nBpt2pIdB3RBpsqXn9BvSPZWj4tinqh1YawPQV1ILmwPG5CJHwXzRk9XhX/P9dA0HvGvgImq01YLAR0LgFDKUDIG5+6q61hxbydruzOOOcKwxY647RzGGQ15WrqUi/HM4nigCpP6wJ/hYoA96gYqZqaP97uTGdW0jRmZPYtW/yljLDiUhRPWTmhp3mEO9IowcMe+XhZvpujpbzahH1isTB7CJ3IhtlHPyprAF01HicbUqIim3JieBF5r5DJRmRslndGCucaEURKpEIj6rmrZKevlFVlUIgWegc9PdMMbjV9gnZHqaaveDoyst9bXNZuPbr4EDsRXptQBFLqUOYGkpEXS5TatALngxt1LOzY0f37A95PBYAT574MFPW2c/CoFjYZsk7vA8wYsfPwexAdGCBpWEkMlrcqPvb+rAxwg9YsC9Hog4XnLSS0bwTg2d9VFlEy3MlFhaZ00kLXVgHlbUB48lYPoXSRAAAAA"
+    22 => "video_uploaded_2"
+    23 => 1080
+    24 => 0
+    25 => ".K0pvPaqpzEPFYHwySOjJbdKIa0q"
+    26 => {
+      "$class" => <CFKeyedArchiverUID 0x60000395e8a0 [0x20dc20120]>{value = 45}
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000395e880 [0x20dc20120]>{value = 27}
+      ]
+    }
+    27 => {
+      "$class" => <CFKeyedArchiverUID 0x60000395e740 [0x20dc20120]>{value = 19}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000395e8c0 [0x20dc20120]>{value = 28}
+        1 => <CFKeyedArchiverUID 0x60000395e8e0 [0x20dc20120]>{value = 29}
+        2 => <CFKeyedArchiverUID 0x60000395e900 [0x20dc20120]>{value = 30}
+        3 => <CFKeyedArchiverUID 0x60000395e920 [0x20dc20120]>{value = 31}
+        4 => <CFKeyedArchiverUID 0x60000395e940 [0x20dc20120]>{value = 32}
+        5 => <CFKeyedArchiverUID 0x60000395e960 [0x20dc20120]>{value = 33}
+        6 => <CFKeyedArchiverUID 0x60000395e520 [0x20dc20120]>{value = 9}
+        7 => <CFKeyedArchiverUID 0x60000395e4c0 [0x20dc20120]>{value = 6}
+        8 => <CFKeyedArchiverUID 0x60000395e980 [0x20dc20120]>{value = 34}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000395e9a0 [0x20dc20120]>{value = 35}
+        1 => <CFKeyedArchiverUID 0x60000395e9c0 [0x20dc20120]>{value = 36}
+        2 => <CFKeyedArchiverUID 0x60000395e9e0 [0x20dc20120]>{value = 37}
+        3 => <CFKeyedArchiverUID 0x60000395ea00 [0x20dc20120]>{value = 38}
+        4 => <CFKeyedArchiverUID 0x60000395e9a0 [0x20dc20120]>{value = 35}
+        5 => <CFKeyedArchiverUID 0x60000395ea20 [0x20dc20120]>{value = 42}
+        6 => <CFKeyedArchiverUID 0x60000395e6c0 [0x20dc20120]>{value = 25}
+        7 => <CFKeyedArchiverUID 0x60000395ea40 [0x20dc20120]>{value = 43}
+        8 => <CFKeyedArchiverUID 0x60000395ea60 [0x20dc20120]>{value = 44}
+      ]
+    }
+    28 => "__is_webm"
+    29 => "photo_overlay"
+    30 => "__local_asset_id"
+    31 => "type_specific_params"
+    32 => "syntheticOverlay"
+    33 => "bigo_url"
+    34 => "__local_cover_key"
+    35 => 0
+    36 => ""
+    37 => "543B97AD-DC42-4E53-9E09-62C5C7692BE6/L0/001"
+    38 => {
+      "$class" => <CFKeyedArchiverUID 0x60000395e740 [0x20dc20120]>{value = 19}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000395eaa0 [0x20dc20120]>{value = 39}
+        1 => <CFKeyedArchiverUID 0x60000395e4e0 [0x20dc20120]>{value = 7}
+        2 => <CFKeyedArchiverUID 0x60000395e480 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x60000395e800 [0x20dc20120]>{value = 17}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000395eac0 [0x20dc20120]>{value = 40}
+        1 => <CFKeyedArchiverUID 0x60000395e680 [0x20dc20120]>{value = 23}
+        2 => <CFKeyedArchiverUID 0x60000395e620 [0x20dc20120]>{value = 20}
+        3 => <CFKeyedArchiverUID 0x60000395eae0 [0x20dc20120]>{value = 41}
+      ]
+    }
+    39 => "thumbnailUrl"
+    40 => "http://imfile.imostatic.com/eu_live/su1/M08/F0/5A/bqnHAGoDSe6EX_WaAAAAAMZmutQ47.webp?auth-token=MjmzWtKCZNZPDel72eoNuB8ChpWxNGG1_hgjACErplg:eyJleHBpcmUiOjE3ODYzNzY0MzEsImFwcGlkIjo2Miwic2VydmljZS1uYW1lIjoiQmlnb0ZpbGVHYXRld2F5IiwiY3VzdG9tMSI6ImZvcndhcmRfYmlnb19maWxlX3VwbG9hZCJ9"
+    41 => 15
+    42 => "http://imfile.imostatic.com/eu_live/su2/M1E/B2/17/ranHAGoDSe6ENNx7AAAAAIsOSUw192.mp4?auth-token=fFVV3zcMmtrwyu4Rr1xbpTP-ycQ76U4ZTytwv3esbwY:eyJleHBpcmUiOjE3ODYzNzY0MzEsImFwcGlkIjo2Miwic2VydmljZS1uYW1lIjoiQmlnb0ZpbGVHYXRld2F5IiwiY3VzdG9tMSI6ImZvcndhcmRfYmlnb19maWxlX3VwbG9hZCJ9"
+    43 => "video"
+    44 => "543B97AD-DC42-4E53-9E09-62C5C7692BE6/L0/001uVoyHQXq"
+    45 => {
+      "$classes" => [
+        0 => "NSArray"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSArray"
+    }
+    46 => "1"
+    47 => "cE7zdo6QxBPTzPky"
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x60000395e3a0 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}

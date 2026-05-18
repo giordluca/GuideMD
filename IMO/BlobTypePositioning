@@ -1,0 +1,70 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x60000020e060 [0x20dc20120]>{value = 18}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000020de20 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x60000020de40 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x60000020de60 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x60000020de80 [0x20dc20120]>{value = 5}
+        4 => <CFKeyedArchiverUID 0x60000020dea0 [0x20dc20120]>{value = 6}
+        5 => <CFKeyedArchiverUID 0x60000020dec0 [0x20dc20120]>{value = 7}
+        6 => <CFKeyedArchiverUID 0x60000020dee0 [0x20dc20120]>{value = 8}
+        7 => <CFKeyedArchiverUID 0x60000020df00 [0x20dc20120]>{value = 9}
+        8 => <CFKeyedArchiverUID 0x60000020df20 [0x20dc20120]>{value = 10}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000020df40 [0x20dc20120]>{value = 11}
+        1 => <CFKeyedArchiverUID 0x60000020df60 [0x20dc20120]>{value = 12}
+        2 => <CFKeyedArchiverUID 0x60000020df80 [0x20dc20120]>{value = 13}
+        3 => <CFKeyedArchiverUID 0x60000020dfa0 [0x20dc20120]>{value = 14}
+        4 => <CFKeyedArchiverUID 0x60000020dfc0 [0x20dc20120]>{value = 15}
+        5 => <CFKeyedArchiverUID 0x60000020dfe0 [0x20dc20120]>{value = 19}
+        6 => <CFKeyedArchiverUID 0x60000020e000 [0x20dc20120]>{value = 20}
+        7 => <CFKeyedArchiverUID 0x60000020e020 [0x20dc20120]>{value = 21}
+        8 => <CFKeyedArchiverUID 0x60000020e040 [0x20dc20120]>{value = 22}
+      ]
+    }
+    2 => "address"
+    3 => "latitude"
+    4 => "msg_id"
+    5 => "trace_id"
+    6 => "log_info"
+    7 => "type"
+    8 => "placeName"
+    9 => "isReply"
+    10 => "longitude"
+    11 => "ItaliaLazioCittà Metropolitana di RomaRomaV MunicipioVia Tiburtina1322"
+    12 => 41.93598640757248
+    13 => "6o621YMD"
+    14 => "4gKw6qxyJzHOIzHT"
+    15 => {
+      "$class" => <CFKeyedArchiverUID 0x60000020e060 [0x20dc20120]>{value = 18}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x60000020e100 [0x20dc20120]>{value = 16}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x60000020e120 [0x20dc20120]>{value = 17}
+      ]
+    }
+    16 => "reshare_type"
+    17 => "single_reshare"
+    18 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+    19 => "location"
+    20 => "Via Tiburtina 1322"
+    21 => 0
+    22 => 12.61705528930666
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x60000020dd80 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}

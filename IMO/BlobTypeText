@@ -1,0 +1,36 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x600003844240 [0x20dc20120]>{value = 8}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600003844180 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x6000038441a0 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x6000038441c0 [0x20dc20120]>{value = 4}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x6000038441e0 [0x20dc20120]>{value = 5}
+        1 => <CFKeyedArchiverUID 0x600003844200 [0x20dc20120]>{value = 6}
+        2 => <CFKeyedArchiverUID 0x600003844220 [0x20dc20120]>{value = 7}
+      ]
+    }
+    2 => "type"
+    3 => "contact_note"
+    4 => "trace_id"
+    5 => "im"
+    6 => "Diciotto"
+    7 => "izXYmCeAGynGVnVL"
+    8 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x6000038440e0 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}

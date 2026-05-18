@@ -1,0 +1,52 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x600003c64480 [0x20dc20120]>{value = 16}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600003c642c0 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x600003c642e0 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x600003c64300 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x600003c64320 [0x20dc20120]>{value = 5}
+        4 => <CFKeyedArchiverUID 0x600003c64340 [0x20dc20120]>{value = 6}
+        5 => <CFKeyedArchiverUID 0x600003c64360 [0x20dc20120]>{value = 7}
+        6 => <CFKeyedArchiverUID 0x600003c64380 [0x20dc20120]>{value = 8}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600003c643a0 [0x20dc20120]>{value = 9}
+        1 => <CFKeyedArchiverUID 0x600003c643c0 [0x20dc20120]>{value = 10}
+        2 => <CFKeyedArchiverUID 0x600003c643e0 [0x20dc20120]>{value = 11}
+        3 => <CFKeyedArchiverUID 0x600003c64400 [0x20dc20120]>{value = 12}
+        4 => <CFKeyedArchiverUID 0x600003c64420 [0x20dc20120]>{value = 13}
+        5 => <CFKeyedArchiverUID 0x600003c64440 [0x20dc20120]>{value = 14}
+        6 => <CFKeyedArchiverUID 0x600003c64460 [0x20dc20120]>{value = 15}
+      ]
+    }
+    2 => "is_sender"
+    3 => "chat_type"
+    4 => "type"
+    5 => "conv_id"
+    6 => "call_duration"
+    7 => "call_end_reason"
+    8 => "contact_note"
+    9 => 0
+    10 => "video_chat"
+    11 => "call_log"
+    12 => "196:V1D050Wu56vOBUbU#"
+    13 => 7
+    14 => "success"
+    15 => "Diciotto"
+    16 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x600003c64220 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}

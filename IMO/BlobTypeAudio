@@ -1,0 +1,280 @@
+{
+  "$archiver" => "NSKeyedArchiver"
+  "$objects" => [
+    0 => "$null"
+    1 => {
+      "$class" => <CFKeyedArchiverUID 0x600002694380 [0x20dc20120]>{value = 108}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600002694200 [0x20dc20120]>{value = 2}
+        1 => <CFKeyedArchiverUID 0x600002694220 [0x20dc20120]>{value = 3}
+        2 => <CFKeyedArchiverUID 0x600002694240 [0x20dc20120]>{value = 4}
+        3 => <CFKeyedArchiverUID 0x600002694260 [0x20dc20120]>{value = 5}
+        4 => <CFKeyedArchiverUID 0x600002694280 [0x20dc20120]>{value = 6}
+        5 => <CFKeyedArchiverUID 0x6000026942a0 [0x20dc20120]>{value = 7}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x6000026942c0 [0x20dc20120]>{value = 8}
+        1 => <CFKeyedArchiverUID 0x6000026942e0 [0x20dc20120]>{value = 85}
+        2 => <CFKeyedArchiverUID 0x600002694300 [0x20dc20120]>{value = 86}
+        3 => <CFKeyedArchiverUID 0x600002694320 [0x20dc20120]>{value = 87}
+        4 => <CFKeyedArchiverUID 0x600002694340 [0x20dc20120]>{value = 88}
+        5 => <CFKeyedArchiverUID 0x600002694360 [0x20dc20120]>{value = 115}
+      ]
+    }
+    2 => "amps"
+    3 => "duration"
+    4 => "trace_id"
+    5 => "type"
+    6 => "objects"
+    7 => "msg_id"
+    8 => {
+      "$class" => <CFKeyedArchiverUID 0x600002694d60 [0x20dc20120]>{value = 84}
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600002694400 [0x20dc20120]>{value = 9}
+        1 => <CFKeyedArchiverUID 0x600002694420 [0x20dc20120]>{value = 10}
+        2 => <CFKeyedArchiverUID 0x600002694440 [0x20dc20120]>{value = 11}
+        3 => <CFKeyedArchiverUID 0x600002694460 [0x20dc20120]>{value = 12}
+        4 => <CFKeyedArchiverUID 0x600002694480 [0x20dc20120]>{value = 13}
+        5 => <CFKeyedArchiverUID 0x6000026944a0 [0x20dc20120]>{value = 14}
+        6 => <CFKeyedArchiverUID 0x6000026944c0 [0x20dc20120]>{value = 15}
+        7 => <CFKeyedArchiverUID 0x6000026944e0 [0x20dc20120]>{value = 16}
+        8 => <CFKeyedArchiverUID 0x600002694500 [0x20dc20120]>{value = 17}
+        9 => <CFKeyedArchiverUID 0x600002694520 [0x20dc20120]>{value = 18}
+        10 => <CFKeyedArchiverUID 0x600002694540 [0x20dc20120]>{value = 19}
+        11 => <CFKeyedArchiverUID 0x600002694560 [0x20dc20120]>{value = 20}
+        12 => <CFKeyedArchiverUID 0x600002694580 [0x20dc20120]>{value = 21}
+        13 => <CFKeyedArchiverUID 0x6000026945a0 [0x20dc20120]>{value = 22}
+        14 => <CFKeyedArchiverUID 0x6000026945c0 [0x20dc20120]>{value = 23}
+        15 => <CFKeyedArchiverUID 0x6000026945e0 [0x20dc20120]>{value = 24}
+        16 => <CFKeyedArchiverUID 0x600002694600 [0x20dc20120]>{value = 25}
+        17 => <CFKeyedArchiverUID 0x6000026945e0 [0x20dc20120]>{value = 24}
+        18 => <CFKeyedArchiverUID 0x600002694620 [0x20dc20120]>{value = 26}
+        19 => <CFKeyedArchiverUID 0x600002694640 [0x20dc20120]>{value = 27}
+        20 => <CFKeyedArchiverUID 0x600002694660 [0x20dc20120]>{value = 28}
+        21 => <CFKeyedArchiverUID 0x600002694680 [0x20dc20120]>{value = 29}
+        22 => <CFKeyedArchiverUID 0x6000026946a0 [0x20dc20120]>{value = 30}
+        23 => <CFKeyedArchiverUID 0x6000026946c0 [0x20dc20120]>{value = 31}
+        24 => <CFKeyedArchiverUID 0x6000026946e0 [0x20dc20120]>{value = 32}
+        25 => <CFKeyedArchiverUID 0x600002694700 [0x20dc20120]>{value = 33}
+        26 => <CFKeyedArchiverUID 0x600002694720 [0x20dc20120]>{value = 34}
+        27 => <CFKeyedArchiverUID 0x600002694740 [0x20dc20120]>{value = 35}
+        28 => <CFKeyedArchiverUID 0x600002694760 [0x20dc20120]>{value = 36}
+        29 => <CFKeyedArchiverUID 0x600002694780 [0x20dc20120]>{value = 37}
+        30 => <CFKeyedArchiverUID 0x6000026947a0 [0x20dc20120]>{value = 38}
+        31 => <CFKeyedArchiverUID 0x6000026947c0 [0x20dc20120]>{value = 39}
+        32 => <CFKeyedArchiverUID 0x6000026947e0 [0x20dc20120]>{value = 40}
+        33 => <CFKeyedArchiverUID 0x600002694800 [0x20dc20120]>{value = 41}
+        34 => <CFKeyedArchiverUID 0x600002694820 [0x20dc20120]>{value = 42}
+        35 => <CFKeyedArchiverUID 0x600002694840 [0x20dc20120]>{value = 43}
+        36 => <CFKeyedArchiverUID 0x600002694860 [0x20dc20120]>{value = 44}
+        37 => <CFKeyedArchiverUID 0x600002694880 [0x20dc20120]>{value = 45}
+        38 => <CFKeyedArchiverUID 0x6000026948a0 [0x20dc20120]>{value = 46}
+        39 => <CFKeyedArchiverUID 0x6000026948c0 [0x20dc20120]>{value = 47}
+        40 => <CFKeyedArchiverUID 0x6000026948e0 [0x20dc20120]>{value = 48}
+        41 => <CFKeyedArchiverUID 0x600002694900 [0x20dc20120]>{value = 49}
+        42 => <CFKeyedArchiverUID 0x600002694920 [0x20dc20120]>{value = 50}
+        43 => <CFKeyedArchiverUID 0x600002694940 [0x20dc20120]>{value = 51}
+        44 => <CFKeyedArchiverUID 0x600002694960 [0x20dc20120]>{value = 52}
+        45 => <CFKeyedArchiverUID 0x600002694980 [0x20dc20120]>{value = 53}
+        46 => <CFKeyedArchiverUID 0x6000026949a0 [0x20dc20120]>{value = 54}
+        47 => <CFKeyedArchiverUID 0x6000026949c0 [0x20dc20120]>{value = 55}
+        48 => <CFKeyedArchiverUID 0x6000026949e0 [0x20dc20120]>{value = 56}
+        49 => <CFKeyedArchiverUID 0x600002694a00 [0x20dc20120]>{value = 57}
+        50 => <CFKeyedArchiverUID 0x600002694a20 [0x20dc20120]>{value = 58}
+        51 => <CFKeyedArchiverUID 0x600002694a40 [0x20dc20120]>{value = 59}
+        52 => <CFKeyedArchiverUID 0x600002694a60 [0x20dc20120]>{value = 60}
+        53 => <CFKeyedArchiverUID 0x600002694a80 [0x20dc20120]>{value = 61}
+        54 => <CFKeyedArchiverUID 0x600002694aa0 [0x20dc20120]>{value = 62}
+        55 => <CFKeyedArchiverUID 0x600002694ac0 [0x20dc20120]>{value = 63}
+        56 => <CFKeyedArchiverUID 0x600002694ae0 [0x20dc20120]>{value = 64}
+        57 => <CFKeyedArchiverUID 0x600002694b00 [0x20dc20120]>{value = 65}
+        58 => <CFKeyedArchiverUID 0x600002694b20 [0x20dc20120]>{value = 66}
+        59 => <CFKeyedArchiverUID 0x600002694b40 [0x20dc20120]>{value = 67}
+        60 => <CFKeyedArchiverUID 0x600002694b60 [0x20dc20120]>{value = 68}
+        61 => <CFKeyedArchiverUID 0x600002694b80 [0x20dc20120]>{value = 69}
+        62 => <CFKeyedArchiverUID 0x600002694ba0 [0x20dc20120]>{value = 70}
+        63 => <CFKeyedArchiverUID 0x600002694bc0 [0x20dc20120]>{value = 71}
+        64 => <CFKeyedArchiverUID 0x600002694be0 [0x20dc20120]>{value = 72}
+        65 => <CFKeyedArchiverUID 0x600002694c00 [0x20dc20120]>{value = 73}
+        66 => <CFKeyedArchiverUID 0x600002694c20 [0x20dc20120]>{value = 74}
+        67 => <CFKeyedArchiverUID 0x600002694c40 [0x20dc20120]>{value = 75}
+        68 => <CFKeyedArchiverUID 0x600002694c60 [0x20dc20120]>{value = 76}
+        69 => <CFKeyedArchiverUID 0x600002694c80 [0x20dc20120]>{value = 77}
+        70 => <CFKeyedArchiverUID 0x600002694ca0 [0x20dc20120]>{value = 78}
+        71 => <CFKeyedArchiverUID 0x600002694cc0 [0x20dc20120]>{value = 79}
+        72 => <CFKeyedArchiverUID 0x600002694ce0 [0x20dc20120]>{value = 80}
+        73 => <CFKeyedArchiverUID 0x600002694d00 [0x20dc20120]>{value = 81}
+        74 => <CFKeyedArchiverUID 0x600002694d20 [0x20dc20120]>{value = 82}
+        75 => <CFKeyedArchiverUID 0x600002694d40 [0x20dc20120]>{value = 83}
+      ]
+    }
+    9 => 0
+    10 => 812
+    11 => 2073
+    12 => 2853
+    13 => 2423
+    14 => 2473
+    15 => 1887
+    16 => 1971
+    17 => 1782
+    18 => 3375
+    19 => 2761
+    20 => 2732
+    21 => 3957
+    22 => 3568
+    23 => 3814
+    24 => 3554
+    25 => 4228
+    26 => 4311
+    27 => 4384
+    28 => 3111
+    29 => 1861
+    30 => 2378
+    31 => 2336
+    32 => 1907
+    33 => 2173
+    34 => 2958
+    35 => 2414
+    36 => 1919
+    37 => 4718
+    38 => 41432
+    39 => 61634
+    40 => 53674
+    41 => 26432
+    42 => 11504
+    43 => 35535
+    44 => 28647
+    45 => 25270
+    46 => 34532
+    47 => 62995
+    48 => 48597
+    49 => 6033
+    50 => 3986
+    51 => 4911
+    52 => 31469
+    53 => 44677
+    54 => 17813
+    55 => 29223
+    56 => 7812
+    57 => 4106
+    58 => 6825
+    59 => 59763
+    60 => 33337
+    61 => 25122
+    62 => 21217
+    63 => 70928
+    64 => 48487
+    65 => 30157
+    66 => 28240
+    67 => 30725
+    68 => 26141
+    69 => 33628
+    70 => 32620
+    71 => 26426
+    72 => 17750
+    73 => 3849
+    74 => 2710
+    75 => 2313
+    76 => 3315
+    77 => 2249
+    78 => 8730
+    79 => 3037
+    80 => 8000
+    81 => 8826
+    82 => 1634
+    83 => 3863
+    84 => {
+      "$classes" => [
+        0 => "NSArray"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSArray"
+    }
+    85 => 3.5
+    86 => "lEkfsDPo08QsnRxb"
+    87 => "audio_uploaded"
+    88 => {
+      "$class" => <CFKeyedArchiverUID 0x600002694d60 [0x20dc20120]>{value = 84}
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600002694e00 [0x20dc20120]>{value = 89}
+      ]
+    }
+    89 => {
+      "$class" => <CFKeyedArchiverUID 0x600002694380 [0x20dc20120]>{value = 108}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600002694e20 [0x20dc20120]>{value = 90}
+        1 => <CFKeyedArchiverUID 0x600002694e40 [0x20dc20120]>{value = 91}
+        2 => <CFKeyedArchiverUID 0x600002694e60 [0x20dc20120]>{value = 92}
+        3 => <CFKeyedArchiverUID 0x600002694e80 [0x20dc20120]>{value = 93}
+        4 => <CFKeyedArchiverUID 0x600002694ea0 [0x20dc20120]>{value = 94}
+        5 => <CFKeyedArchiverUID 0x600002694ec0 [0x20dc20120]>{value = 95}
+        6 => <CFKeyedArchiverUID 0x600002694260 [0x20dc20120]>{value = 5}
+        7 => <CFKeyedArchiverUID 0x600002694ee0 [0x20dc20120]>{value = 96}
+        8 => <CFKeyedArchiverUID 0x600002694f00 [0x20dc20120]>{value = 97}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x600002694f20 [0x20dc20120]>{value = 98}
+        1 => <CFKeyedArchiverUID 0x600002694f40 [0x20dc20120]>{value = 99}
+        2 => <CFKeyedArchiverUID 0x600002694f60 [0x20dc20120]>{value = 109}
+        3 => <CFKeyedArchiverUID 0x600002694f80 [0x20dc20120]>{value = 110}
+        4 => <CFKeyedArchiverUID 0x600002694fa0 [0x20dc20120]>{value = 111}
+        5 => <CFKeyedArchiverUID 0x600002694fc0 [0x20dc20120]>{value = 112}
+        6 => <CFKeyedArchiverUID 0x600002694fe0 [0x20dc20120]>{value = 105}
+        7 => <CFKeyedArchiverUID 0x600002695000 [0x20dc20120]>{value = 113}
+        8 => <CFKeyedArchiverUID 0x600002695020 [0x20dc20120]>{value = 114}
+      ]
+    }
+    90 => "filesize"
+    91 => "type_specific_params"
+    92 => "timestamp_nano_str"
+    93 => "prev_im_ts"
+    94 => "timestamp_nano"
+    95 => "filename"
+    96 => "timestamp"
+    97 => "object_id"
+    98 => 7257
+    99 => {
+      "$class" => <CFKeyedArchiverUID 0x600002694380 [0x20dc20120]>{value = 108}
+      "NS.keys" => [
+        0 => <CFKeyedArchiverUID 0x600002694220 [0x20dc20120]>{value = 3}
+        1 => <CFKeyedArchiverUID 0x600002695080 [0x20dc20120]>{value = 100}
+        2 => <CFKeyedArchiverUID 0x600002694260 [0x20dc20120]>{value = 5}
+        3 => <CFKeyedArchiverUID 0x6000026950a0 [0x20dc20120]>{value = 101}
+        4 => <CFKeyedArchiverUID 0x6000026950c0 [0x20dc20120]>{value = 102}
+      ]
+      "NS.objects" => [
+        0 => <CFKeyedArchiverUID 0x6000026950e0 [0x20dc20120]>{value = 103}
+        1 => <CFKeyedArchiverUID 0x600002695100 [0x20dc20120]>{value = 104}
+        2 => <CFKeyedArchiverUID 0x600002694fe0 [0x20dc20120]>{value = 105}
+        3 => <CFKeyedArchiverUID 0x600002695120 [0x20dc20120]>{value = 106}
+        4 => <CFKeyedArchiverUID 0x600002695140 [0x20dc20120]>{value = 107}
+      ]
+    }
+    100 => "bit_rate"
+    101 => "sample_rate"
+    102 => "mime"
+    103 => 3.5
+    104 => 16587
+    105 => "audio"
+    106 => 48000
+    107 => "audio/ogg"
+    108 => {
+      "$classes" => [
+        0 => "NSDictionary"
+        1 => "NSObject"
+      ]
+      "$classname" => "NSDictionary"
+    }
+    109 => "1778233114257000000"
+    110 => 1778233100270000000
+    111 => 1778233114257000000
+    112 => "cBgjDpWFEqQ.ogg"
+    113 => 1778233114
+    114 => ".K1QEEBnnqYWDFmUfdvoRbuOhghw"
+    115 => "WnpdDcv9"
+  ]
+  "$top" => {
+    "root" => <CFKeyedArchiverUID 0x600002694160 [0x20dc20120]>{value = 1}
+  }
+  "$version" => 100000
+}
